@@ -1,5 +1,5 @@
 @media screen and (max-width: 1400px) {
-  #profile {
+  /* #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -9,14 +9,14 @@
   #contact,
   #projects {
     height: fit-content;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop-nav {
+  /* #desktop-nav {
     display: none;
-  }
-  #hamburger-nav {
+  } */
+  /* #hamburger-nav {
     display: flex;
   }
   #experience,
@@ -39,16 +39,16 @@
   }
   .section__pic-container {
     width: 275px;
-    height: 275px;
+    height: auto;
     margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+  /* #contact,
   footer {
     height: 40vh;
   }
@@ -87,8 +87,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 46vw;
+    height: auto;
     justify-content: center;
   }
   .section__text__p2 {
@@ -99,5 +99,5 @@
   }
   .text-container {
     text-align: justify;
-  }
+  } */
 }
