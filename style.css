@@ -214,14 +214,18 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 
 /* ICONS */
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 1.5rem;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 /* BUTTONS */
