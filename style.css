@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   background-color: #6E6E6E;
 }
 
@@ -36,11 +37,11 @@ nav,
 
 nav {
   justify-content: space-around;
-  align-items: center;
+  align-items: end;
   position: fixed;
   top: 0px;
   width: 100vw;
-  height: 17vh;
+  height: 10vh;
 }
 
 .nav-links {
@@ -63,7 +64,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: white;
 }
 
@@ -154,7 +155,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding: 2rem;
+  /* padding: 2rem; */
   /* height: 96vh; */
   /* margin: 0 10rem; */
   box-sizing: border-box;
@@ -172,17 +173,17 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
+  margin-top: 10vh;
 }
 
-.section__pic-container {
+.hero-image {
   display: flex;
-  /* height: 400px; */
-  width: 400px;
-  margin: auto 0;
+  width: 330px;
+  margin: auto;
 }
 
-.section__pic-container img {
+.hero-image img {
   width: 100%;
   height: auto;
 }
@@ -213,8 +214,9 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  align-items: center;
   gap: 2.5rem;
+  height: 10vh;
 }
 
 /* ICONS */
@@ -321,12 +323,6 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
-}
-
-.section__pic-container {
-  /* height: 400px; */
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */

@@ -47,7 +47,29 @@
   } */
 }
 
+@media screen and (max-height: 600px) {
+  /* PROFILE SECTION */
+  .hero-image {
+    width: 250px;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  /* DESKTOP NAV */
+  .logo {
+    font-size: 1.5rem;
+  }
+  /* PROFILE SECTION */
+  .hero-image {
+    width: 250px;
+  }
+  #socials-container {
+    gap: 1.7rem;
+  }
+  /* ICONS */
+  .icon {
+    height: 1.2rem;
+  }
   /* #contact,
   footer {
     height: 40vh;
